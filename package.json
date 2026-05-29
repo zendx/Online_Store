@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "dev": "node scripts/next-compat.cjs dev",
+    "build": "node scripts/next-compat.cjs build",
+    "start": "node scripts/next-compat.cjs start",
+    "lint": "node scripts/next-compat.cjs lint",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
